@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.google.firebase.auth.FirebaseAuth
 import com.rajkishorbgp.quizapplication.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -29,7 +30,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this@MainActivity,EditPasswordActivity::class.java))
         }
         binding.logoutCard.setOnClickListener {
-            Toast.makeText(this@MainActivity,"Logout",Toast.LENGTH_SHORT).show()
+            FirebaseAuth.getInstance().signOut()
+            val intent = Intent(this,SignInActivity::class.java)
+            startActivity(intent)
+            Toast.makeText(this,"Log out!",Toast.LENGTH_SHORT).show()
+            finish()
         }
     }
 }
