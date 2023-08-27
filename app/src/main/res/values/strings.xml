@@ -20,4 +20,6 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="already_an_user_login">Already an user? Login</string>
     <string name="sign_up">Sign Up</string>
+    <string name="math">Math</string>
+    <string name="c_language">C Language</string>
 </resources>
