@@ -22,4 +22,26 @@
     <string name="sign_up">Sign Up</string>
     <string name="math">Math</string>
     <string name="c_language">C Language</string>
+    <string name="total_question">Total Question</string>
+    <string name="a">(A)</string>
+    <string name="b">(B)</string>
+    <string name="c">(C)</string>
+    <string name="d">(D)</string>
+    <string name="next"><![CDATA[Next ->]]></string>
+    <string name="try_again">Try Again</string>
+    <string name="space_science">Space science</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="history_text"> androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardBackgroundColor="#6D443C"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintVertical_bias="0.110000014"></string>
+    <string name="rules_text"><![CDATA[" android:layout_width=\"match_parent\"\n        android:layout_height=\"wrap_content\"\n        android:background=\"#6D443C\"\n        app:titleTextColor=\"@color/white\"\n        app:title=\"Rules\"/>\n    \n    <androidx.cardview.widget.CardView\n        android:layout_width=\"match_parent\"\n        android:layout_height=\"wrap_content\"\n        android:layout_margin=\"20dp\""]]></string>
 </resources>

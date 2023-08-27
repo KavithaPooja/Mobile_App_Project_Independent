@@ -4,9 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
 import android.view.MenuItem
-import com.rajkishorbgp.quizapp.ScoreActivity
 import com.rajkishorbgp.quizapplication.databinding.ActivityMathQuizBinding
 
 
@@ -23,8 +21,7 @@ class MathQuizActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         setSupportActionBar(binding.toolbar)
-        binding.toolbar.title="Math"
-        supportActionBar?.setDisplayHomeAsUpEnabled(false)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         list = ArrayList()
 
@@ -115,5 +112,12 @@ class MathQuizActivity : AppCompatActivity() {
                 score++
             }
         }
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == android.R.id.home){
+            onBackPressed()
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

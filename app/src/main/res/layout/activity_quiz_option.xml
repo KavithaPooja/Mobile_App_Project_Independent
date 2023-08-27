@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/oldLaceColor"
+    android:background="#482D28"
     tools:context=".QuizOptionActivity">
 
     <ScrollView
@@ -21,11 +21,13 @@
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-            </androidx.appcompat.widget.Toolbar>
+                android:layout_height="wrap_content"
+                android:background="#6D443C"
+                app:titleTextColor="@color/white"
+                app:title="Quiz"/>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/mathCardView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -33,22 +35,24 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="10dp"
-                app:cardBackgroundColor="@color/white">
+                app:cardBackgroundColor="#6D443C">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/teacher"/>
+                        android:src="@drawable/teacher"
+                        android:contentDescription="@string/todo" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/math"
                         android:textSize="30sp"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:layout_gravity="center"
                         android:layout_marginBottom="10dp"
                         android:textStyle="bold"
@@ -60,28 +64,31 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/cLanguageCardView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="10dp"
-                app:cardBackgroundColor="@color/white">
+                app:cardBackgroundColor="#6D443C">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/letter_c"/>
+                        android:src="@drawable/letter_c"
+                        android:contentDescription="@string/todo" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/c_language"
                         android:textSize="30sp"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:layout_gravity="center"
                         android:textStyle="bold"
                         android:layout_marginStart="30dp"/>
@@ -92,28 +99,31 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/spaceScienceCardView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="10dp"
-                app:cardBackgroundColor="@color/white">
+                app:cardBackgroundColor="#6D443C">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="20dp"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/flying"/>
+                        android:src="@drawable/flying"
+                        tools:ignore="ContentDescription" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Space science"
-                        android:textSize="30dp"
-                        android:textColor="@color/black"
+                        android:text="@string/space_science"
+                        android:textSize="30sp"
+                        android:textColor="@color/white"
                         android:layout_gravity="center"
                         android:layout_marginBottom="10dp"
                         android:textStyle="bold"

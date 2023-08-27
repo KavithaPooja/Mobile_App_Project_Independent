@@ -1,11 +1,12 @@
-package com.rajkishorbgp.quizapp
+package com.rajkishorbgp.quizapplication
 
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
-import com.rajkishorbgp.quizapp.databinding.ActivityScoreBinding
+import com.rajkishorbgp.quizapplication.databinding.ActivityScoreBinding
 import nl.dionsegijn.konfetti.models.Shape.Circle
 import nl.dionsegijn.konfetti.models.Shape.Square
 import nl.dionsegijn.konfetti.models.Size
@@ -18,12 +19,15 @@ class ScoreActivity : AppCompatActivity() {
         binding= ActivityScoreBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        setSupportActionBar(binding.toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         binding.score.text = "Congratulation!!! your score is ${intent.getIntExtra("SCORE",0)}"
         val score = intent.getIntExtra("SCORE",0)
         val total  =intent.getIntExtra("COUNT",0)
         binding.secondaryScore.text="$score/$total"
 
-        if(score>total/2){
+        if(true){
             binding.isWinner.text= "pass"
             binding.viewKonfetti.build()
                 .addColors(Color.YELLOW, Color.GREEN, Color.MAGENTA)
@@ -43,4 +47,12 @@ class ScoreActivity : AppCompatActivity() {
             finish()
         }
     }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId==android.R.id.home){
+            onBackPressed()
+        }
+        return super.onOptionsItemSelected(item)
+    }
+
 }

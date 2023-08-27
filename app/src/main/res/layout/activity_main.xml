@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/siennaColor"
+    android:background="#482D28"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="20dp"
                 android:layout_marginTop="20dp"
-                app:cardBackgroundColor="@color/oldLaceColor">
+                app:cardBackgroundColor="#45251F">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -53,7 +53,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/menu"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:textSize="20sp"
                         android:layout_marginBottom="5dp"/>
 
@@ -62,7 +62,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        app:cardBackgroundColor="@color/white"
+                        app:cardBackgroundColor="#6D443C"
                         app:cardCornerRadius="10dp">
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -81,7 +81,7 @@
                                 android:layout_gravity="center"
                                 android:layout_marginStart="20dp"
                                 android:textSize="25sp"
-                                android:textColor="@color/black"
+                                android:textColor="@color/white"
                                 android:textStyle="bold"
                                 />
                         </LinearLayout>
@@ -109,7 +109,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
                                 android:layout_marginEnd="10dp"
-                                app:cardBackgroundColor="@color/white"
+                                app:cardBackgroundColor="#6D443C"
                                 app:cardCornerRadius="10dp">
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -132,7 +132,7 @@
                                         android:textSize="25sp"
                                         android:layout_marginTop="10dp"
                                         android:layout_marginBottom="20dp"
-                                        android:textColor="@color/black"
+                                        android:textColor="@color/white"
                                         android:textStyle="bold"
                                         />
                                 </LinearLayout>
@@ -153,7 +153,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
                                 android:layout_marginStart="10dp"
-                                app:cardBackgroundColor="@color/white"
+                                app:cardBackgroundColor="#6D443C"
                                 app:cardCornerRadius="10dp">
 
                                 <LinearLayout
@@ -177,7 +177,7 @@
                                         android:layout_marginTop="10dp"
                                         android:layout_marginBottom="20dp"
                                         android:textSize="20sp"
-                                        android:textColor="@color/black"
+                                        android:textColor="@color/white"
                                         android:textStyle="bold"
                                         />
                                 </LinearLayout>
@@ -206,7 +206,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
                                 android:layout_marginEnd="10dp"
-                                app:cardBackgroundColor="@color/white"
+                                app:cardBackgroundColor="#6D443C"
                                 app:cardCornerRadius="10dp">
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -229,7 +229,7 @@
                                         android:textSize="20sp"
                                         android:layout_marginTop="10dp"
                                         android:layout_marginBottom="20dp"
-                                        android:textColor="@color/black"
+                                        android:textColor="@color/white"
                                         android:textStyle="bold"
                                         />
                                 </LinearLayout>
@@ -250,7 +250,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
                                 android:layout_marginStart="10dp"
-                                app:cardBackgroundColor="@color/white"
+                                app:cardBackgroundColor="#6D443C"
                                 app:cardCornerRadius="10dp">
 
                                 <LinearLayout
@@ -272,7 +272,7 @@
                                         android:text="@string/logout"
                                         android:layout_gravity="center"
                                         android:textSize="20sp"
-                                        android:textColor="@color/black"
+                                        android:textColor="@color/white"
                                         android:layout_marginTop="10dp"
                                         android:layout_marginBottom="20dp"
                                         android:textStyle="bold"
