@@ -27,7 +27,7 @@ class ScoreActivity : AppCompatActivity() {
         val total  =intent.getIntExtra("COUNT",0)
         binding.secondaryScore.text="$score/$total"
 
-        if(true){
+        if(score>total/2){
             binding.isWinner.text= "pass"
             binding.viewKonfetti.build()
                 .addColors(Color.YELLOW, Color.GREEN, Color.MAGENTA)
@@ -43,8 +43,7 @@ class ScoreActivity : AppCompatActivity() {
             binding.isWinner.text="If you get more than ${total/2} marks then you pass"
         }
         binding.tryAgain.setOnClickListener {
-            startActivity(Intent(this@ScoreActivity,MainActivity::class.java))
-            finish()
+            onBackPressed()
         }
     }
 

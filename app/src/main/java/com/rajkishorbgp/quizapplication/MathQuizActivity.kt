@@ -26,26 +26,20 @@ class MathQuizActivity : AppCompatActivity() {
         list = ArrayList()
 
         // Question
-        list.add(QuestionManager("Which of the following is not a valid relational operator ?",
-            "*", "==", ">=", "<=", "*"))
-        list.add(QuestionManager("Which is an incorrect variable name ?",
-            "Id_No", "ID_NO", "ID_NO", "Id No", "Id No"))
-        list.add(QuestionManager("scanf() is a predefined function in______header file.",
-            "stdlib.h", "ctype.h", "stdio.h", " stdarg.h", "stdio.h"))
-        list.add(QuestionManager("C Programming Language is often called as :",
-            "High Level Language", "Middle Level Language", "Low Level Language", "None of these", "Middle Level Language"))
-        list.add(QuestionManager("Who is the father of C language?",
-            "Steve Jobs", "James Gosling", "Dennis Ritchie", "Rasmus Lerdorf", "Dennis Ritchie"))
-        list.add(QuestionManager("Which of the following is not a valid C variable name ?",
-            "int number;", "float rate;", "int variable_count;","int $ main;", "int $ main;"))
-        list.add(QuestionManager("All keywords in C are in ____________",
-            "LowerCase letters", "UpperCase letters", "UpperCase letters", "None of the mentioned", "LowerCase letters"))
-        list.add(QuestionManager("What is an example of iteration in C ?",
-            "for", "while", "do-while", "all of the mentioned", "all of the mentioned"))
-        list.add(QuestionManager("The C-preprocessors are specified with _________ symbol.",
-            "#", "$", "/", "&", "#"))
-        list.add(QuestionManager("What is the sizeof(char) in a 32-bit C compiler ?",
-            "1 bit", "2 bits", "1 Byte", "2 Bytes", "1 Byte"))
+        list.add(QuestionManager("Let Q and R are two finite sets such that n(Q) = 36, n(R) = 40 and n(Q U R) = 50. Find n(Q ∩ R).",
+            "25", "26", "27", "None of the above/More than one of the above.", "26"))
+        list.add(QuestionManager("If the sum of three consecutive natural numbers is 87, then find the middle number. ",
+            "27", "29", "30", "28", "29"))
+        list.add(QuestionManager("What should be 25/36 added to to make it −12/18?",
+            "-75/108", "-80/108", "-85/108", "-49/36", "-49/36"))
+        list.add(QuestionManager("Find the number of zeroes in 10 × 20 × 30 × ... × 1000.",
+            "100", "124", "120", "150", "124"))
+        list.add(QuestionManager("The sum of three consecutive multiples of 5 is 285. Find the largest number.",
+            "75", "100", "120", "90", "100"))
+        list.add(QuestionManager("The sum of two numbers is 90. If one of them exceeds the other by 16, find both the numbers?",
+            "50, 40", "53, 37", "64, 48","43, 47", "53, 37"))
+        list.add(QuestionManager("Rohit multiplies a number by 2 instead of dividing the number by 2. Resultant number is what percentage of the correct value?",
+            "200%", "300%", "50%", "400%", "400%"))
 
 
         binding.totalQuestion.text = "${list.size}"

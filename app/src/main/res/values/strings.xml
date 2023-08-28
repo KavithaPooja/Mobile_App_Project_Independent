@@ -43,5 +43,4 @@
         android:layout_margin="20dp"
         app:cardCornerRadius="30dp"
         app:layout_constraintVertical_bias="0.110000014"></string>
-    <string name="rules_text"><![CDATA[" android:layout_width=\"match_parent\"\n        android:layout_height=\"wrap_content\"\n        android:background=\"#6D443C\"\n        app:titleTextColor=\"@color/white\"\n        app:title=\"Rules\"/>\n    \n    <androidx.cardview.widget.CardView\n        android:layout_width=\"match_parent\"\n        android:layout_height=\"wrap_content\"\n        android:layout_margin=\"20dp\""]]></string>
 </resources>

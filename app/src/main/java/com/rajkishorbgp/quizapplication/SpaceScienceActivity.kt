@@ -28,27 +28,16 @@ class SpaceScienceActivity : AppCompatActivity() {
         list = ArrayList()
 
         // Question
-        list.add(QuestionManager("Which of the following is not a valid relational operator ?",
-            "*", "==", ">=", "<=", "*"))
-        list.add(QuestionManager("Which is an incorrect variable name ?",
-            "Id_No", "ID_NO", "ID_NO", "Id No", "Id No"))
-        list.add(QuestionManager("scanf() is a predefined function in______header file.",
-            "stdlib.h", "ctype.h", "stdio.h", " stdarg.h", "stdio.h"))
-        list.add(QuestionManager("C Programming Language is often called as :",
-            "High Level Language", "Middle Level Language", "Low Level Language", "None of these", "Middle Level Language"))
-        list.add(QuestionManager("Who is the father of C language?",
-            "Steve Jobs", "James Gosling", "Dennis Ritchie", "Rasmus Lerdorf", "Dennis Ritchie"))
-        list.add(QuestionManager("Which of the following is not a valid C variable name ?",
-            "int number;", "float rate;", "int variable_count;","int $ main;", "int $ main;"))
-        list.add(QuestionManager("All keywords in C are in ____________",
-            "LowerCase letters", "UpperCase letters", "UpperCase letters", "None of the mentioned", "LowerCase letters"))
-        list.add(QuestionManager("What is an example of iteration in C ?",
-            "for", "while", "do-while", "all of the mentioned", "all of the mentioned"))
-        list.add(QuestionManager("The C-preprocessors are specified with _________ symbol.",
-            "#", "$", "/", "&", "#"))
-        list.add(QuestionManager("What is the sizeof(char) in a 32-bit C compiler ?",
-            "1 bit", "2 bits", "1 Byte", "2 Bytes", "1 Byte"))
-
+        list.add(QuestionManager("What do most asteroids orbit?",
+            "the Sun", "Earth", "Pluto", "None of the above", "the Sun"))
+        list.add(QuestionManager("Which of these contain large quantities of ice?",
+            "stars", "comets", "asteroids", "None of the above", "comets"))
+        list.add(QuestionManager("Which of the following is not a scientific optical instrument?",
+            "periscope", "microscope", "telescope", "endoscope", "periscope"))
+        list.add(QuestionManager("What astronomer suggested that the Sun was at the center of the solar system?",
+            "Ptolemy", "Theon of Alexandria", "Copernicus", "Hypatia", "Copernicus"))
+        list.add(QuestionManager("Which astronomer wrote the Aryabhatiya?",
+            "Aryabhata I", "Galileo", "Brahmagupta", "Bhaskara I", "Aryabhata I"))
 
         binding.totalQuestion.text = "${list.size}"
 
