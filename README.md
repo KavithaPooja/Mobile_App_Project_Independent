@@ -14,14 +14,6 @@ Welcome to the Quiz Application repository! This Android app is designed to prov
 
 - **Categories and Difficulty Levels:** The app offers a range of quiz categories and difficulty levels, catering to diverse user preferences.
 
-## Getting Started
-
-To run the Quiz Application on your Android device or emulator:
-
-1. Clone this repository to your local machine.
-2. Open the project folder in Android Studio.
-3. Build and run the app on your preferred device.
-
 
 ## Live Demo:
 
