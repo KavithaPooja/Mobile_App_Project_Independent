@@ -56,18 +56,6 @@ Contributions are always welcome! If you're interested in contributing to the Qu
 ---
 
 
-## Feedback and Support
-
-For any queries, suggestions, or support, please feel free to contact us at rajkishorbgp6@gmail.com.
-
-## Stay Connected
-
-For updates about project developments, follow us on:
-- Facebook: [rajkishorbgp](https://www.facebook.com/rajkishorbgp)
-- Twitter: [@rajkishorbgp](https://twitter.com/rajkishorbgp)
-- LinkedIn: [Raj Kishor](https://www.linkedin.com/in/rajkishorbgp/)
-
-We appreciate your interest and involvement in the Quiz Application project!
 
 ## License
 
