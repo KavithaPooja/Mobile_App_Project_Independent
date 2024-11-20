@@ -22,16 +22,6 @@ To run the Quiz Application on your Android device or emulator:
 2. Open the project folder in Android Studio.
 3. Build and run the app on your preferred device.
 
-## Contributing
-
-Contributions are always welcome! If you're interested in contributing to the Quiz Application, follow these steps:
-
-1. Fork this repository to your GitHub account.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push your changes to your fork.
-5. Open a pull request, and provide a detailed explanation of your changes.
-
 
 ## Live Demo:
 
